@@ -132,6 +132,7 @@ plot(rvals, xstarPos);
 hold on; plot(rvals, xstarNeg);
 xlabel('r');
 ylabel('xstar');
+title('Bifurcation Diagram of xdot = 1+tx+x^2')
 legend('xstarPos', 'xstarNeg');
 grid on;
 
